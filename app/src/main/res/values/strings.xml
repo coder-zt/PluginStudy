@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PluginStudy</string>
+    <string name="host_str">这是宿主中的字符串</string>
+</resources>

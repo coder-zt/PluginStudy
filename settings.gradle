@@ -1,0 +1,6 @@
+rootProject.name = "PluginStudy"
+include ':app'
+include ':mylibrary'
+include ':IPlugin'
+include ':small-databinding'
+include ':small'
