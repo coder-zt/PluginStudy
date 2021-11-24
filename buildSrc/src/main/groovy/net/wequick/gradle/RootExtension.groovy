@@ -218,6 +218,7 @@ public class RootExtension extends BaseExtension {
                 if (aarRevision == null) {
                     aarRevision = VersionNumber.parse(aarVersion)
                 }
+                }
             }
         }
         if (aarRevision < REQUIRED_AAR_REVISION) {

@@ -166,6 +166,17 @@ class RootPlugin extends BasePlugin {
         compatVendors()
     }
 
+    /**
+     * small {
+     *     buildToAssets = true
+     *     strictSplitResources = false
+     *     android {
+*              compileSdkVersion = 27
+     *         buildToolsVersion = "25.0.2"
+     *         supportVersion = "25.1.0"
+     *     }
+     * }
+     */
     protected void configVersions(Project p, RootExtension.AndroidConfig base) {
         if (!p.hasProperty('android')) return
 
